@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.send({
-    name:"sandeep"
+    name:"sandeep yadav"
   })
 })
 console.log(process.env.PORT)
